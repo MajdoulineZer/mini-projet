@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<HTML>
+<HEAD>
+		<meta  charset="utf-8" />
+		<TITLE>Exemples de fichiers HTML: Images</TITLE>
+</HEAD>
+<BODY>
+	<H1> Utilisation des images: </h1> 
+	<p> 
+        IMG : gère les informations nécessaires pour afficher une image, à la position où on l'insère, dans le document.<br/>
+        Une image peut comporter un cadre. 
+
+        <!-- Fixer uniquement width ou height, permet une bonne mise à l'échelle de l'image -->
+        <!-- (alt) : Nom de substitution qui sera affiché à la place de l'image -->
+        <!-- certain de ces attributs ne sont plus utilisées en HTML5 ( CSS à la place)-->
+
+        <IMG SRC="img_girl.jpg" width="250"  ALT="HTML5" BORDER="4" ALIGN="middle">, ici le logo du langage HTML5 comme exemple. 
+        <br/>
+        Une image peut aussi être un lien. 
+        <br/>
+        Cliquez sur cette image 
+        <!-- L'attribut "TARGET="Cadre cible" définit la fenêtre dans laquelle la page cible doit s'afficher. 
+             Avec "_blank" la page cible est ouverte dans une nouvelle fenêtre. -->
+
+        <a href="https://www.w3.org/" target="_blank"> 
+            <IMG SRC="./images/logo_W3C.gif" height="50px"  ALT="W3C1"  ALIGN="bottom" >
+        </a>
+        , pour se rendre sur le site de W3C. 
+        <br/>
+        Cette image n'existe pas 
+        <!-- L'attribut WIDTH="Valeur" en pixels définit la largeur.
+            L'attribut HEIGHT="Valeur" en pixels définit la hauteur.
+            L'attribut HSPACE="Valeur" en pixels définit un espacement horizontal entre l'image et le texte.
+            L'attribut VSPACE="Valeur" en pixels définit un espacement vertical entre l'image et le texte.
+            L'attribut BORDER="Valeur en pixels" applique une bordure autour d'une image
+            ALIGN="Type d'alignement" permet l'alignement d'un texte par rapport à une image (top, middle, bottom, left et right).
+            . -->
+             <IMG SRC="./images/logo.gif" height="50px"  ALT="W3C2"  ALIGN="top" > ....
+	</p>
+</BODY>
+</HTML>

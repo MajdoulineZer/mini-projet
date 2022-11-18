@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<HTML>
+<HEAD>
+	<meta  charset="utf-8" />
+	<TITLE>Exemples de fichiers HTML: tableaux</TITLE>
+</HEAD>
+<BODY>
+	<h1> Tableaux complexes </h1>
+	<table align= "center" border="2" width="80%" CELLSPACING="1" CELLPADDING="3" >
+		<!-- Légende -->
+		<caption align="bottom" >Fusion des cellules dans un tableau </caption>
+		<!-- L'entête du tableau peut avoir une mise en forme différente, elle définit le nombre des colonnes-->
+		 <tr>
+			<th  width="15%" >Groupe </th>
+			<th  width="15%" >colonne 1</th>
+			<th  width="35%" >colonne 2</th>
+			<th  width="35%" >colonne 3</th>
+		</tr>
+		 
+		<tr> <!-- cette cellule s'étale sur 3 lignes et 1 seule colonne-->
+			<td rowspan="3"> 3 lignes 1 colonne </td>
+			<td > A </td>	
+			<td > A </td>
+			<td > A </td>			
+		</tr>
+		<tr>
+			<td >B </td>
+			<!-- cette cellule s'étale sur 2 lignes et 2 colonnes-->
+			<td colspan="2" rowspan="2">C</td>			
+						
+		</tr>
+		<tr>
+			<td >D </td>
+            <!-- Si on ajoute une autre cellule, on sera au-delà de la 4èmme colonne-->									
+		</tr>
+		<tr>
+			<td rowspan="3">... </td>
+			<td >... </td>	
+			<td >... </td>
+			<td >... </td>			
+		</tr>
+		<tr>
+			<td >... </td>
+			<td >... </td>	
+			<td >... </td>					
+		</tr>
+		<tr>
+			<td >... </td>
+			<td >... </td>	
+			<td >... </td>						
+		</tr>
+		<tr> <!-- cette ligne contient une seule cellule -->
+			<td colspan="4" >... </td>
+	   </tr>
+	</table>
+	<h2> Tableaux </h2>
+</BODY>
+
+</HTML>
